@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio - Homepage</title>
+    <!-- Metatags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Van Gestel Axel">
+    <meta name="description" content="Axel Van Gestel's Portfolio.">
+    <meta name="keywords" content="Portfolio, Homepage, ThomasMore, Student, HTML5, CSS">
+    <!-- Favicon -->
+    <link href="icons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="icons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="icons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+    <link href="icons/site.webmanifest" rel="manifest">
+    <link color="#5bbad5" href="icons/safari-pinned-tab.svg" rel="mask-icon">
+    <link href="icons/favicon.ico" rel="shortcut icon">
+    <meta content="#da532c" name="msapplication-TileColor">
+    <meta content="icons/browserconfig.xml" name="msapplication-config">
+    <meta content="#f9f9f9" name="theme-color">
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/basic_footer.min.css">
+    <link rel="stylesheet" href="css/base.min.css">
+</head>
+
+<body data-spy="scroll" data-target="#nav" data-offset="0">
+<div id="page-container">
+
+    <nav id="nav" class="fixed-top navbar navbar-expand-md navbar-light bg-transparent bg-white-blur">
+        <!-- Bootstrap - Navbar Brand -->
+        <!-- <a class="navbar-brand mb-0 h1" href="#"><i class="fas fa-home"></i> Portfolio</a> -->
+        <a class="navbar-brand mb-0 h1" href="#">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#MainNav" aria-controls="MainNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse w-100" id="MainNav">
+            <!-- Navbar Left -->
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a data-scroll class="nav-link" href="#OverMij">Over Mij</a>
+                </li>
+                <li class="nav-item">
+                    <a data-scroll class="nav-link" href="#SkillProfile">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a data-scroll class="nav-link" href="#bewijstukken">Bewijsstukken</a>
+                </li>
+            </ul>
+            <!-- Navbar Right -->
+            <div role="separator" class="dropdown-divider" style="max-width: 5rem"></div>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Homepage</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Main Content of Page -->
+    <div id="page-main">
+        <header>
+            <div class="Main-Jumbotron jumbotron jumbotron-fluid" style="padding-top: 120px">
+                <div class="container text-center">
+                    <h1>Welkom op mijn Portfolio!</h1>
+                </div>
+            </div>
+        </header>
+
+        <div class="container text-center">
+            <div class="row">
+                <section class="col-12 mb-5" id="OverMij">
+                    <h2 class="pt-5">Wie ben ik?</h2>
+                    <hr class="divider">
+                    <div class="row">
+                        <div class="col-lg-5 col-12">
+                            <img src="images/A_Van_Gestel_FACE_400px.JPG" alt="Afbeelding Axel Van Gestel" width="400" height="400"></div>
+                        <div class="col-lg-7 col-12 text-lg-left my-4">
+                            <h3 class="h4 mb-2">Axel Van Gestel</h3>
+                            <ul class="list-inline text-muted">
+                                <li><span class="font-weight-bold">Geboren:</span> 2000-03-31</li>
+                            </ul>
+                            <p class="text-muted">Ik ben <span class="font-weight-bold">Axel Van Gestel</span>, een
+                                student bij de IT-Factory van Thomas More te Geel.<br>Mijn interesses liggen bij
+                                programmeren, namelijk <span class="font-weight-bold">Python, C# en Java</span>.<br>Naast
+                                programmeren spendeer ik mijn tijd in tekenen, gamen, anime en random dingen op het internet
+                                op zoeken.</p>
+                            <p class="text-muted mb-0">Ik heb voor IT-Factory gekozen wegens mijn grote interesse in programmeren. In de toekomst zou ik dan ook graag een beroep in deze category willen uitoefenen.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="col-12 mt-3 mb-0" id="SkillProfile">
+                    <div class="row pt-5">
+                        <div class="col-md-7 col-12 text-md-right my-4">
+                            <h3 class="h4 mb-2">Skill Profile</h3>
+                            <ul class="mt-3 list-inline text-muted">
+                                <li><span class="font-weight-bold">APP: </span>Application Development is iets wat me zeer hard interesseert.</li>
+                                <li><span class="font-weight-bold">AI: </span>Artificial Intelligence interesseert me wel maar eerder als hobby.</li>
+                                <li><span class="font-weight-bold">CCS: </span>Cloud & Cyber Security interesseert mij het minst, ik zie het mezelf niet langdurig doen.</li>
+                                <li><span class="font-weight-bold">IOT: </span>Bij Internet of Things vind ik het programmeren wel leuk maar het aansluiten minder.</li>
+                                <li><span class="font-weight-bold">Softskills: </span>Qua communicatie & teamwerk ben ik vooruitgegaan tegen over de voorbije jaren, time management kan nog altijd verbeterd worden.</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-5 col-12">
+                            <div id="chart"></div></div>
+                    </div>
+                </section>
+
+                <section class="col-12 mt-3 mb-5" id="bewijstukken">
+                    <h2 class="mb-3 pt-5">Bewijsstukken</h2>
+                    <hr class="divider mb-5">
+                    <div class="row">
+                        <!-- ----- Bewijstukken ----- -->
+                        <!-- DONE: Incompetenties -->
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3">
+                            <a href="" data-toggle="modal" data-target="#Modal_Incompetenties" class="card mx-auto" style="max-width: 18rem;">
+                                <img class="card-img-top" src="images/card_thumbnails/incompetentie.jpg" alt="Card image cap" width="360" height="200"
+                                     onerror="this.src='images/img_Error_Template.jpg'">
+                                <div class="card-body">
+                                    <h5 class="card-title">Spelling</h5>
+                                    <p class="card-text">Één van mijn incompetenties is het vergeten van de spellingsregels.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="modal fade" id="Modal_Incompetenties" tabindex="-1" role="dialog" aria-labelledby="Modal_IncompetentiesLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="Modal_IncompetentiesLabel">Spelling</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <header>
+                                            <div class="Main-Jumbotron jumbotron jumbotron-fluid" style="padding-top: 120px">
+                                                <div class="container text-center">
+                                                    <h1>Spelling</h1>
+                                                    <p class="font-weight-bolder">Incompetenties</p>
+                                                </div>
+                                            </div>
+                                        </header>
+
+                                        <div class="container text-center">
+                                            <section>
+                                                <h2>Context</h2>
+                                                <hr class="divider">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <p>Één van mijn incompetenties is het vergeten van de spellingsregels, ik schrijf standaard op gevoel wat deze situatie niet positief bevorderd. Dit heb ik bij één van de eerste PO lessen terug ondervonden met een onverwachte spellings test, die ik toen zwaar buisde. Ondanks dit weet ik van vorige jaren dat als ik de spellingsregels even opgefrist zou hebben dat ik er vlot door zou zijn geweest van die test.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </section>
+
+                                            <section class="mt-3">
+                                                <h2>De Oplossing</h2>
+                                                <hr class="divider">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <p>Een oplossing voor deze incompetentie zou het maandelijks herhalen van de spellingsregels kunnen zijn, dit hoeven niet per se oefeningen te zijn aangezien ik weet hoe ik ze moet toepassen als ik de regels ken.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </section>
+
+                                            <section class="mt-3 mb-5">
+                                                <h2>Het Besluit</h2>
+                                                <hr class="divider">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <p>Om verdere onverwachte problemen te voorkomen zou het maandelijks eens de opfrissen van de spellingsregels een goede eerste stap zijn. Voor het beste resultaat zou het testen van die regels met oefeningen een goede extra oplossing zijn.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- DONE: Moment of growth -->
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3">
+                            <a href="" data-toggle="modal" data-target="#Modal_Growth" class="card mx-auto" style="max-width: 18rem;">
+                                <img class="card-img-top" src="images/card_thumbnails/planning.jpg" alt="Card image cap" width="360" height="200"
+                                     onerror="this.src='images/img_Error_Template.jpg'">
+                                <div class="card-body">
+                                    <h5 class="card-title">Moment van groei</h5>
+                                    <p class="card-text">Ik merk op dat ik gegroeid ben in het plannen van taken, ook merk ik dat ik iets socialer ben geworden.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="modal fade" id="Modal_Growth" tabindex="-1" role="dialog" aria-labelledby="Modal_GrowthLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="Modal_GrowthLabel">Moment van groei</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <header>
+                                            <div class="Main-Jumbotron jumbotron jumbotron-fluid" style="padding-top: 120px">
+                                                <div class="container text-center">
+                                                    <h1>Moment van groei</h1>
+                                                    <p class="font-weight-bolder">Moment of growth</p>
+                                                    <p class="font-weight-bolder">2 non-technical exhibits</p>
+                                                </div>
+                                            </div>
+                                        </header>
+
+                                        <div class="container text-center">
+                                            <section>
+                                                <h2>Plannen</h2>
+                                                <hr class="divider">
+                                                <div class="row">
+                                                    <div class="col-12 col-lg-6">
+                                                        <img src="images/bewijstukken/planning.jpg" alt="Whiteboard met planning" title="Whiteboard met planning" width="1280" height="1083">
+                                                    </div>
+
+                                                    <div class="col-12 mt-3 mt-lg-0 col-lg-6 text-lg-left">
+                                                        <p>Als ik terugkijk naar het begin van het schooljaar dan valt het me op dat ik verbeterd ben met dingen te plannen, in het begin van het jaar maakte ik geen planning en was alles vaak "last minute" wat ervoor zorgde dat de dagen voor de deadlines vrij stressvol waren. Hieruit heb ik geleerd dat planningen wel degelijk een functie hebben en maak ik ook vrij simpele planningen voor de taken in functie van de moeilijkheidsgraad van de taak en de deadline ervan. Dit is natuurlijk nog steeds niet de ideale planning maar het is beter dan geen planning en zorgde ervoor dat de dagen voor de deadlines minder stressvol waren.</p>
+                                                    </div>
+
+                                                </div>
+                                            </section>
+
+                                            <section class="pt-5 mt-3 mb-5">
+                                                <h2>Socialer</h2>
+                                                <hr class="divider">
+                                                <p>Verder merk ik op dat ik socialer ben geworden, in het begin van het jaar zou ik niet zonder een goede rede ergens zomaar naar toe gaan, nu zou ik dat wel doen als een vriend zou vragen om ergens eens naar toe te gaan. Dit komt vooral doordat ik de eerste dag van het nieuwe schooljaar al een hechte vriendengroep had gevonden waarvan één van die personen vrij sociaal was. Dat heeft mij doen openbloeien tot een vrij sociaal persoon denk ik.</p>
+                                            </section>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- DONE: Globalise -->
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3">
+                            <a href="" data-toggle="modal" data-target="#Modal_Globalise" class="card mx-auto" style="max-width: 18rem;">
+                                <img class="card-img-top" src="images/card_thumbnails/globalise.jpg" alt="Card image cap" width="360" height="200"
+                                     onerror="this.src='images/img_Error_Template.jpg'">
+                                <div class="card-body">
+                                    <h5 class="card-title">File Sharing</h5>
+                                    <p class="card-text">Tijdens de lessen Windows Sys. Admin. leerden we hoe je bestanden kon delen, dit paste ik thuis direct toe.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="modal fade" id="Modal_Globalise" tabindex="-1" role="dialog" aria-labelledby="Modal_GlobaliseLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="Modal_GlobaliseLabel">File Sharing</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <header>
+                                            <div class="Main-Jumbotron jumbotron jumbotron-fluid" style="padding-top: 120px">
+                                                <div class="container text-center">
+                                                    <h1>Lokale File Sharing Server</h1>
+                                                    <p class="font-weight-bolder">Globalise</p>
+                                                </div>
+                                            </div>
+                                        </header>
+
+                                        <div class="container text-center">
+                                            <section>
+                                                <h2>Context</h2>
+                                                <hr class="divider">
+                                                <div class="row">
+                                                    <div class="col-12 col-lg-6">
+                                                        <img src="images/bewijstukken/globalise.png" alt="Gedeelde Folders op Devil's Server" title="Gedeelde folders op Devil's Server" width="590" height="254">
+                                                    </div>
+
+                                                    <div class="col-12 mt-3 mt-lg-0 col-lg-6 text-lg-left">
+                                                        <p>Tijdens de lessen Windows System Administration leerden we hoe je bestanden over het netwerk kon delen in Windows. Aangezien ik lokaal een Windows PC heb staan die ik af en toe als game server liet functioneren kwam deze kennis goed van pas. Origineel verplaatste ik alle bestanden via een USB Stick wat niet ideaal was, na de lessen van Windows Sys. Admin. heb ik sommige folders kunnen delen op de server zodat ik makkelijk bestanden af kan halen en er op zetten.</p>
+                                                    </div>
+
+                                                </div>
+                                            </section>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Arduino -->
+                        <!-- DONE: Outside the ITFactory -->
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3">
+                            <a href="" data-toggle="modal" data-target="#Modal_Arduino" class="card mx-auto" style="max-width: 18rem;">
+                                <img class="card-img-top" src="images/card_thumbnails/arduino.jpg" alt="Card image cap" width="650" height="350"
+                                     onerror="this.src='images/img_Error_Template.jpg'">
+                                <div class="card-body">
+                                    <h5 class="card-title">CO2 Meettoestel</h5>
+                                    <p class="card-text">Een Arduino powered CO2 meettoestel als onderdeel van mijn GIP in 6 Techniek Wetenschappen</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="modal fade" id="Modal_Arduino" tabindex="-1" role="dialog" aria-labelledby="Modal_ArduinoLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="Modal_ArduinoLabel">CO2 Meettoestel</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <header>
+                                            <div class="Main-Jumbotron jumbotron jumbotron-fluid" style="padding-top: 120px">
+                                                <div class="container text-center">
+                                                    <h1>Arduino CO2 Meettoestel</h1>
+                                                    <p class="font-weight-bolder">Outside the ITFactory</p>
+                                                </div>
+                                            </div>
+                                        </header>
+
+                                        <div class="container text-center">
+                                            <section>
+                                                <h2>Context</h2>
+                                                <hr class="divider">
+                                                <div class="row">
+                                                    <div class="col-12 col-lg-6">
+                                                        <img src="images/bewijstukken/arduino_BOX.jpg" alt="Arduino CO2 Meettoestel" title="CO2 Meettoestel in Actie" width="1280" height="722">
+                                                    </div>
+
+                                                    <div class="col-12 mt-3 mt-lg-0 col-lg-6 text-lg-left">
+                                                        <p>Als GIP onderwerp in 6TEW had ik voor Arduino gekozen, dit was daarna verder verfijnd naar "Hoe kan je via Arduino CO2 meten?". Ik had voor dit onderwerp gekozen wegens mijn interesse in programmeren & Arduino.</p>
+                                                        <p>Het CO2 meettoestel is opgebouwd uit een Arduino UNO R3, DHT11 Humidity & Temperature Sensor, CCS881 CO2 Sensor, SD Card Module en een 16x2 LCD Display with i2C backplate.</p>
+                                                        <a href="https://github.com/A-Van-Gestel/6TEW-GIP-Arduino-CO2_meettoestel/blob/master/DHT11_LCD_SD_CCS881_Adafruit__FINAL_Button_V2/DHT11_LCD_SD_CCS881_Adafruit__FINAL_Button_V2.ino" target="_blank" rel="noopener" class="text-body"><i class="fab fa-github"></i> Code op Github</a>
+                                                    </div>
+
+                                                </div>
+                                            </section>
+
+                                            <section class="pt-5 mt-3 mb-5">
+                                                <h2>Paper voor GIP</h2>
+                                                <hr class="divider">
+                                                <embed src="media/Arduino_GIP.pdf" alt="PDF File: Arduino GIP" type="application/pdf"/>
+                                                <a href="media/Arduino_GIP.pdf" target="_blank" rel="noopener">Download PDF File: Arduino GIP</a>
+                                            </section>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- DONE: Co-creation -->
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3">
+                            <a href="" data-toggle="modal" data-target="#Modal_Co-Creation" class="card mx-auto" style="max-width: 18rem;">
+                                <img class="card-img-top" src="images/card_thumbnails/co-creation.jpg" alt="Card image cap" width="360" height="200"
+                                     onerror="this.src='images/img_Error_Template.jpg'">
+                                <div class="card-body">
+                                    <h5 class="card-title">HTML5 Uitdaging 1</h5>
+                                    <p class="card-text">Als opdracht voor HTML5 moesten we een fictief webbureau opstellen in groep.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="modal fade" id="Modal_Co-Creation" tabindex="-1" role="dialog" aria-labelledby="Modal_Co-CreationLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="Modal_Co-CreationLabel">HTML5 Uitdaging 1</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <header>
+                                            <div class="Main-Jumbotron jumbotron jumbotron-fluid" style="padding-top: 120px">
+                                                <div class="container text-center">
+                                                    <h1>HTML5 - Uitdaging 1</h1>
+                                                    <p class="font-weight-bolder">Co-creation</p>
+                                                    <p class="font-weight-bolder">2 non-technical exhibits</p>
+                                                </div>
+                                            </div>
+                                        </header>
+
+                                        <div class="container text-center">
+                                            <section>
+                                                <h2>Context</h2>
+                                                <hr class="divider">
+                                                <div class="row">
+                                                    <div class="col-12 col-lg-6">
+                                                        <img src="images/bewijstukken/uitdaging_1.jpg" alt="HTML5 Uitdaging 1" title="The Coding Goblins webbureau" width="1398" height="720">
+                                                    </div>
+
+                                                    <div class="col-12 lg-3 mt-lg-0 col-lg-6 text-lg-left">
+                                                        <p>Als opdracht voor HTML5 moesten we een fictief webbureau opstellen in groep als oefening op Bootstrap 4, PHP & Github. Wij hadden als team besloten om het webbureau "The Coding Goblins" op te stellen.</p>
+                                                        <p>Mijn bijdrage bij deze opdracht is de stijl van het webbureau, de PHP pagina en een groot deel van de inhoud. Verder heb ik het formulier dat een teamlid had aangemaakt aangepast zodat deze responsive was.</p>
+                                                        <p>Verder zag ik mezelf als de teamleader die de taken verdeelde en ervoor zorgde dat alles goed verliep.</p>
+                                                        <a href="https://vangestelaxel.sinners.be/html5/uitdaging1/" target="_blank" rel="noopener" class="text-body"><i class="fas fa-external-link-alt"></i> Ga naar "The Coding Goblins"</a>
+                                                    </div>
+
+                                                </div>
+                                            </section>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- DONE: 2 exhibits on what you did here -->
+                        <!-- Python -->
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3">
+                            <a href="" data-toggle="modal" data-target="#Modal_Python" class="card mx-auto" style="max-width: 18rem;">
+                                <img class="card-img-top" src="images/card_thumbnails/python.jpg" alt="Card image cap" width="360" height="200"
+                                     onerror="this.src='images/img_Error_Template.jpg'">
+                                <div class="card-body">
+                                    <h5 class="card-title">Python</h5>
+                                    <p class="card-text">Oefening als voorbereiding op het examen waarin ik even "Out of the box" moest denken.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="modal fade" id="Modal_Python" tabindex="-1" role="dialog" aria-labelledby="Modal_PythonLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="Modal_PythonLabel">Python</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <header>
+                                            <div class="Main-Jumbotron jumbotron jumbotron-fluid" style="padding-top: 120px">
+                                                <div class="container text-center">
+                                                    <h1>Herhalingsoefening Python</h1>
+                                                    <p class="font-weight-bolder">2 exhibits on what you did here</p>
+                                                </div>
+                                            </div>
+                                        </header>
+
+                                        <div class="container text-center">
+                                            <section>
+                                                <h2>Context</h2>
+                                                <hr class="divider">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <p>Als voorbereiding op het examen Python maakte ik de aangeraden herhalingsoefening, hetgeen wat voor mij deze oefening moeilijk maakte was een methode vinden om de datums correct te vergelijken.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </section>
+
+                                            <section class="mt-3 mb-5">
+                                                <h2>Het Proces</h2>
+                                                <hr class="divider">
+                                                <embed src="media/Python.pdf" alt="PDF File: Python" type="application/pdf"/>
+                                                <a href="media/Python.pdf" target="_blank" rel="noopener">Download PDF File: Python</a>
+                                            </section>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- PC Montage -->
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3">
+                            <a href="" data-toggle="modal" data-target="#Modal_PCMontage" class="card mx-auto" style="max-width: 18rem;">
+                                <img class="card-img-top" src="images/card_thumbnails/pcmontage.jpg" width="596" height="337"
+                                     alt="Card image cap"
+                                     onerror="this.src='images/img_Error_Template.jpg'">
+                                <div class="card-body">
+                                    <h5 class="card-title">PC Montage</h5>
+                                    <p class="card-text">Groepsproject waarin we een video moesten maken waarin we een pc in elkaar stopte.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="modal fade" id="Modal_PCMontage" tabindex="-1" role="dialog" aria-labelledby="Modal_PCMontageLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="Modal_PCMontageLabel">PC Montage</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <header>
+                                            <div class="Main-Jumbotron jumbotron jumbotron-fluid" style="padding-top: 120px">
+                                                <div class="container text-center">
+                                                    <h1>PC Montage</h1>
+                                                    <p class="font-weight-bolder">2 exhibits on what you did here</p>
+                                                </div>
+                                            </div>
+                                        </header>
+
+                                        <div class="container text-center">
+                                            <section>
+                                                <h2>Video</h2>
+                                                <hr class="divider">
+                                                <div class="row">
+                                                    <div class="col-12 col-lg-6">
+                                                        <div class="iframe-container">
+                                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/1p_3OvCnCdY"
+                                                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                                                    allowfullscreen>
+                                                            </iframe>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-12 mt-3 mt-lg-0 col-lg-6 text-lg-left">
+                                                        <p>Voor het vak IT essentials moesten we een als groepsproject een montagevideo van een PC maken, dit hebben Dheren Leysen & ik volbracht via deze video.</p>
+                                                        <p>De videoclip is het klaslokaal via de GSM opgenomen, later via Sony Vegas Pro 17 verwerkt en gedubbed.</p>
+                                                    </div>
+                                                </div>
+                                            </section>
+
+                                            <section class="mt-5 mb-5">
+                                                <h2>Het Proces</h2>
+                                                <hr class="divider">
+                                                <embed src="media/PC_Montage.pdf" alt="PDF File: PC Montage" type="application/pdf"/>
+                                                <a href="media/PC_Montage.pdf" target="_blank" rel="noopener">Download PDF File: PC Montage</a>
+                                            </section>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- DONE: 2 non-technical exhibits -->
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3">
+                            <a href="" data-toggle="modal" data-target="#Modal_GitHub" class="card mx-auto" style="max-width: 18rem;">
+                                <img class="card-img-top" src="images/card_thumbnails/github.jpg" alt="Card image cap" width="360" height="200"
+                                     onerror="this.src='images/img_Error_Template.jpg'">
+                                <div class="card-body">
+                                    <h5 class="card-title">Repositories GitHub</h5>
+                                    <p class="card-text">Tijdens de lessen Webdesign met HTML5 leerden we hoe je met GitHub werkt.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="modal fade" id="Modal_GitHub" tabindex="-1" role="dialog" aria-labelledby="Modal_GitHubLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="Modal_GitHubLabel">Repositories GitHub</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <header>
+                                            <div class="Main-Jumbotron jumbotron jumbotron-fluid" style="padding-top: 120px">
+                                                <div class="container text-center">
+                                                    <h1>Projecten via repositories op GitHub</h1>
+                                                    <p class="font-weight-bolder">2 non-technical exhibits</p>
+                                                </div>
+                                            </div>
+                                        </header>
+
+                                        <div class="container text-center">
+                                            <section>
+                                                <h2>Context</h2>
+                                                <hr class="divider">
+                                                <div class="row">
+                                                    <div class="col-12 col-lg-6">
+                                                        <img src="images/bewijstukken/github.png" alt="Mijn GitHub Repo's" title="Mijn GitHub Repo's" width="747" height="688">
+                                                    </div>
+
+                                                    <div class="col-12 mt-3 mt-lg-0 col-lg-6 text-lg-left">
+                                                        <p>Tijdens de lessen Webdesign met HTML5 leerden we hoe je met GitHub moest werken, dit was iets wat ik al veel eerder wou weten zodat ik mijn eerdere projecten kon organiseren met GitHub.</p>
+                                                        <p>Na dat ik wist hoe je via Github je projecten kan organiseren en bijhouden heb ik daar ook meteen gebruik van gemaakt voor andere vakken ondanks dat dit niet verplicht was. Deze portfolio staat ook mooi als repo "1ITF1-Portfolio-Website" bij mijn Repositories zoals te zien op de afbeelding.</p>
+                                                        <a href="https://github.com/A-Van-Gestel?tab=repositories" target="_blank" rel="noopener" class="text-body"><i class="fab fa-github"></i> Mijn Repo's op Github</a>
+                                                    </div>
+
+                                                </div>
+                                            </section>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<footer id="page-footer" class="bg-light text-muted">
+    <div class="container pt-4 text-center">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <p>Copyright &copy; Axel Van Gestel - 2020</p>
+            </div>
+            <div class="col-1">
+                <a href="https://github.com/A-Van-Gestel" target="_blank" rel="noopener" class="text-muted"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<!--<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0/dist/smooth-scroll.polyfills.min.js"></script>-->
+<script src="js/nav-transparant-to-solid.min.js"></script>
+<!-- Star Diagram -->
+<script>
+    const options = {
+        series: [{
+            name: 'Score (%)',
+            data: [100, 75, 25, 60, 50],
+        }],
+        chart: {
+            height: 350,
+            type: 'radar',
+        },
+        dataLabels: {
+            enabled: false
+        },
+        plotOptions: {
+            radar: {
+                size: 140,
+                polygons: {
+                    strokeColor: '#e9e9e9',
+                    fill: {
+                        colors: ['#f8f8f8', '#fff']
+                    }
+                }
+            }
+        },
+        colors: ['#FF4560'],
+        markers: {
+            size: 3,
+            colors: ['#fff'],
+            strokeColor: '#FF4560',
+            strokeWidth: 2,
+        },
+        tooltip: {
+            y: {
+                formatter: function (val) {
+                    return val
+                }
+            }
+        },
+        xaxis: {
+            categories: ['APP', 'AI', 'CCS', 'IOT', 'Softskills']
+        },
+        yaxis: {
+            tickAmount: 10,
+            labels: {
+                formatter: function (val, i) {
+                    if (i % 2 === 0) {
+                        return val
+                    } else {
+                        return ''
+                    }
+                }
+            }
+        }
+    };
+
+    const chart = new ApexCharts(document.querySelector("#chart"), options);
+    chart.render();
+</script>
+<!-- Smooth Scroll -->
+<!--<script>-->
+<!--    var scroll = new SmoothScroll('a[href*="#"]');-->
+<!--</script>-->
+
+</body>
+</html>
