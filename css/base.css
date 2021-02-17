@@ -26,13 +26,13 @@ img {
     border-radius: 50%;
 }
 
-#bewijstukken a {
+#projecten a {
     text-decoration: none;
     color: #21252A;
     transition: 0.2s;
 }
 
-#bewijstukken a:hover {
+#projecten a:hover {
     box-shadow: 2px 2px 5px var(--gray);
 
 }
@@ -57,11 +57,11 @@ embed {
     height: 600px;
 }
 
-#bewijstukken .card {
+#projecten .card {
     height: 330px;
 }
 
-#bewijstukken .card img {
+#projecten .card img {
     max-height: 158px;
 }
 
