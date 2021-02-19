@@ -34,7 +34,14 @@ img {
 
 #projecten a:hover {
     box-shadow: 2px 2px 5px var(--gray);
+}
 
+#contacteren .card {
+    transition: 0.2s;
+}
+
+#contacteren .card:hover {
+    box-shadow: 2px 2px 5px var(--gray);
 }
 
 .iframe-container {
@@ -67,6 +74,13 @@ embed {
 
 nav {
     transition: background-color 0.2s linear;
+}
+
+a.nav-link.active {
+    font-weight: bold;
+    color: var(--secondary);
+    border-bottom: var(--secondary) solid 2px;
+    border-radius: 2px;
 }
 
 .bg-white-blur {
