@@ -5,9 +5,11 @@
     <title>Portfolio - Homepage</title>
     <!-- Metatags -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Van Gestel Axel">
+    <meta name="author" content="Van Gestel Axel, axel.van.gestel@hotmail.be">
     <meta name="description" content="Axel Van Gestel's Portfolio.">
+    <meta name="subject" content="Portfolio">
     <meta name="keywords" content="Portfolio, Homepage, ThomasMore, Student, HTML5, CSS">
+    <meta name="og:image" content="images/A_Van_Gestel_FACE_400px.JPG"/>
     <!-- Favicon -->
     <link href="icons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
     <link href="icons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
@@ -20,6 +22,7 @@
     <meta content="#f9f9f9" name="theme-color">
     <!-- CSS Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="css/basic_footer.min.css">
     <link rel="stylesheet" href="css/base.min.css">
 </head>
@@ -281,7 +284,12 @@
                                                     <div class="col-12 row">
                                                         <h6 class="col-12">Sessies beheren</h6>
                                                         <div class="col-12 col-lg-6">
-                                                            <img src="images/projecten/requirements_analysis/14_UC_Sessie_Wijzigen_1_Organisator.png" alt="UC Sessie Wijzigen 1, Organisator" width="897" height="329">
+                                                            <a href="images/projecten/requirements_analysis/14_UC_Sessie_Wijzigen_1_Organisator.png"
+                                                               data-fancybox="RequirementsAnalysis"
+                                                               data-width="897" data-height="329"
+                                                               data-caption="In dit scherm heeft de organisator een overzicht van alle sessies en heeft ie ook de mogelijkheid om sessies te wijzigen of te verwijderen.">
+                                                                <img src="images/projecten/requirements_analysis/14_UC_Sessie_Wijzigen_1_Organisator.png" alt="UC Sessie Wijzigen 1, Organisator" width="897" height="329">
+                                                            </a>
                                                         </div>
                                                         <div class="col-12 mt-3 col-lg-6 mt-lg-5 text-lg-left">
                                                             <p class="mt-lg-2">In dit scherm heeft de organisator een overzicht van alle sessies en heeft ie ook de mogelijkheid om sessies te wijzigen of te verwijderen.</p>
@@ -289,11 +297,18 @@
                                                     </div>
                                                     <div class="col-12 row mt-3">
                                                         <h6 class="col-12">Aanwezigheidslijsten afdrukken</h6>
-                                                        <div class="col-12 col-lg-6 order-lg-1">
-                                                            <img src="images/projecten/requirements_analysis/17_UC_Aanwezigheidslijst_2_afdrukken_2_Organisator.png" alt="UC Aanwezigheidslijst afdrukken 2, Organisator" width="939" height="591">
+                                                        <div class="col-12 col-lg-6">
+                                                            <a href="images/projecten/requirements_analysis/17_UC_Aanwezigheidslijst_2_afdrukken_2_Organisator.png"
+                                                               data-fancybox="RequirementsAnalysis"
+                                                               data-width="939" data-height="591"
+                                                               data-caption="In dit scherm heeft de organisator een overzicht van de geplande sessie, op welke datum deze valt, wie de begeleider is en welke studenten allemaal ingeschreven zijn.">
+                                                                <img src="images/projecten/requirements_analysis/17_UC_Aanwezigheidslijst_2_afdrukken_2_Organisator.png" alt="UC Aanwezigheidslijst afdrukken 2, Organisator" width="939" height="591">
+                                                            </a>
                                                         </div>
-                                                        <div class="col-12 mt-3 col-lg-6 mt-lg-5 text-lg-left order-lg-0">
-                                                            <p class="mt-lg-5">In dit scherm heeft de organisator een overzicht van alle sessies en heeft ie ook de mogelijkheid om sessies te wijzigen of te verwijderen.</p>
+                                                        <div class="col-12 mt-3 col-lg-6 mt-lg-5 text-lg-left">
+                                                            <div class="d-flex align-items-center h-100">
+                                                                <p>In dit scherm heeft de organisator een overzicht van de geplande sessie, op welke datum deze valt, wie de begeleider is en welke studenten allemaal ingeschreven zijn.</p>
+                                                            <div>
                                                         </div>
                                                     </div>
 
@@ -380,22 +395,52 @@
                                                             </ol>
                                                             <div class="carousel-inner">
                                                                 <div class="carousel-item active">
-                                                                    <img src="images/projecten/cordova/tab_1.png" width="720" height="1280" class="d-block w-100" alt="T-Doll Data">
+                                                                    <a href="images/projecten/cordova/tab_1.png"
+                                                                       data-fancybox="Cordova"
+                                                                       data-width="720" data-height="1280"
+                                                                       data-caption="T-Doll Data">
+                                                                        <img src="images/projecten/cordova/tab_1.png" width="720" height="1280" class="d-block w-100" alt="T-Doll Data">
+                                                                    </a>
                                                                 </div>
                                                                 <div class="carousel-item">
-                                                                    <img src="images/projecten/cordova/tab_2.png" width="720" height="1280" class="d-block w-100" alt="T-Doll Build-Time">
+                                                                    <a href="images/projecten/cordova/tab_2.png"
+                                                                       data-fancybox="Cordova"
+                                                                       data-width="720" data-height="1280"
+                                                                       data-caption="T-Doll Build-Time">
+                                                                        <img src="images/projecten/cordova/tab_2.png" width="720" height="1280" class="d-block w-100" alt="T-Doll Build-Time">
+                                                                    </a>
                                                                 </div>
                                                                 <div class="carousel-item">
-                                                                    <img src="images/projecten/cordova/tab_3.png" width="720" height="1280" class="d-block w-100" alt="Favorites">
+                                                                    <a href="images/projecten/cordova/tab_3.png"
+                                                                       data-fancybox="Cordova"
+                                                                       data-width="720" data-height="1280"
+                                                                       data-caption="Favorites">
+                                                                        <img src="images/projecten/cordova/tab_3.png" width="720" height="1280" class="d-block w-100" alt="Favorites">
+                                                                    </a>
                                                                 </div>
                                                                 <div class="carousel-item">
-                                                                    <img src="images/projecten/cordova/tab_4.png" width="720" height="1280" class="d-block w-100" alt="About">
+                                                                    <a href="images/projecten/cordova/tab_4.png"
+                                                                       data-fancybox="Cordova"
+                                                                       data-width="720" data-height="1280"
+                                                                       data-caption="About">
+                                                                        <img src="images/projecten/cordova/tab_4.png" width="720" height="1280" class="d-block w-100" alt="About">
+                                                                    </a>
                                                                 </div>
                                                                 <div class="carousel-item">
-                                                                    <img src="images/projecten/cordova/network_error.png" width="720" height="1280" class="d-block w-100" alt="network error">
+                                                                    <a href="images/projecten/cordova/network_error.png"
+                                                                       data-fancybox="Cordova"
+                                                                       data-width="720" data-height="1280"
+                                                                       data-caption="Network error">
+                                                                        <img src="images/projecten/cordova/network_error.png" width="720" height="1280" class="d-block w-100" alt="Network error">
+                                                                    </a>
                                                                 </div>
                                                                 <div class="carousel-item">
-                                                                    <img src="images/projecten/cordova/check_for_updates.png" width="720" height="1280" class="d-block w-100" alt="Check for updates">
+                                                                    <a href="images/projecten/cordova/check_for_updates.png"
+                                                                       data-fancybox="Cordova"
+                                                                       data-width="720" data-height="1280"
+                                                                       data-caption="Check for updates">
+                                                                        <img src="images/projecten/cordova/check_for_updates.png" width="720" height="1280" class="d-block w-100" alt="Check for updates">
+                                                                    </a>
                                                                 </div>
                                                             </div>
                                                             <a class="carousel-control-prev" href="#carousel_Images" role="button" data-slide="prev">
@@ -483,7 +528,12 @@
                                                     <div class="col-12 row">
                                                         <h6 class="col-12">Web Applicatie</h6>
                                                         <div class="col-12 col-lg-6">
-                                                            <img src="images/projecten/shipping_challenge/shipping_challenge_app.png" alt="Shipping Challenge Applicatie" width="1920" height="976">
+                                                            <a href="images/projecten/shipping_challenge/shipping_challenge_app.png"
+                                                               data-fancybox="LinuxWebservices"
+                                                               data-width="1920" data-height="976"
+                                                               data-caption="De web-stack die ik moest toepassen was: Apache2, MySQL, Perl & Portainer. Verder heb ik deze applicatie opgemaakt met Bootstrap 4.">
+                                                                <img src="images/projecten/shipping_challenge/shipping_challenge_app.png" alt="Shipping Challenge Applicatie" width="1920" height="976">
+                                                            </a>
                                                         </div>
                                                         <div class="col-12 mt-3 col-lg-6 mt-lg-4 text-lg-left">
                                                             <p>De web-stack die ik moest toepassen was:</p>
@@ -511,10 +561,15 @@
                                                     </div>
                                                     <div class="col-12 row mt-3">
                                                         <h6 class="col-12">Portainer dashboard</h6>
-                                                        <div class="col-12 col-lg-6 order-lg-1">
-                                                            <img src="images/projecten/shipping_challenge/portainer_dashboard.png" alt="Shipping Challenge Portainer Dashboard" width="1920" height="977">
+                                                        <div class="col-12 col-lg-6">
+                                                            <a href="images/projecten/shipping_challenge/portainer_dashboard.png"
+                                                               data-fancybox="LinuxWebservices"
+                                                               data-width="1920" data-height="977"
+                                                               data-caption="Als extra moest ik een Portainer dashboard opzetten, dit is ook gelukt en hielp om snel te controleren of dat alles nog correct draaide.">
+                                                                <img src="images/projecten/shipping_challenge/portainer_dashboard.png" alt="Shipping Challenge Portainer Dashboard" width="1920" height="977">
+                                                            </a>
                                                         </div>
-                                                        <div class="col-12 mt-3 col-lg-6 mt-lg-5 text-lg-left order-lg-0">
+                                                        <div class="col-12 mt-3 col-lg-6 mt-lg-5 text-lg-left">
                                                             <p class="mt-lg-5">Als extra moest ik een Portainer dashboard opzetten, dit is ook gelukt en hielp om snel te controleren of dat alles nog correct draaide.</p>
                                                         </div>
                                                     </div>
@@ -592,7 +647,12 @@
                                                     <div class="col-12 row">
                                                         <h6 class="col-12">Homepage coördinator</h6>
                                                         <div class="col-12 col-lg-6">
-                                                            <img src="images/projecten/project_php/home.png" alt="Home page" class="img-fluid w-75 mt-3" width="1150" height="978">
+                                                            <a href="images/projecten/project_php/home.png"
+                                                               data-fancybox="ProjectPHP"
+                                                               data-width="1150" data-height="978"
+                                                               data-caption="Als coördinator zou je zo goed als alles moeten kunnen zoeken en bewerken waar nodig. Hiervoor heb ik een zoekbalk ingebouwd die door de 3 lijsten van Teams, studenten & sessies kan filteren. Verder kan je ook nog apart filteren op Teams, studenten of sessies.">
+                                                                <img src="images/projecten/project_php/home.png" alt="Home page" class="img-fluid w-75 mt-3" width="1150" height="978">
+                                                            </a>
                                                         </div>
                                                         <div class="col-12 mt-3 col-lg-6 mt-lg-4 text-lg-left">
                                                             <div class="d-flex align-items-center h-100">
@@ -604,7 +664,12 @@
                                                     <div class="col-12 row mt-3">
                                                         <h6 class="col-12">Beheren academiejaren</h6>
                                                         <div class="col-12 col-lg-6">
-                                                            <img src="images/projecten/project_php/academic_year.png" alt="Beheer academiejaren" width="1150" height="482">
+                                                            <a href="images/projecten/project_php/academic_year.png"
+                                                               data-fancybox="ProjectPHP"
+                                                               data-width="1150" data-height="482"
+                                                               data-caption="De coördinator moet ook een academiejaar kunnen afsluiten en de vorige academiejaren kunnen bekijken in het archief. Mocht er geen academiejaar actief zijn dan verschijnt er een knop om een academiejaar te starten.">
+                                                                <img src="images/projecten/project_php/academic_year.png" alt="Beheer academiejaren" width="1150" height="482">
+                                                            </a>
                                                         </div>
                                                         <div class="col-12 mt-3 col-lg-6 mt-lg-4 text-lg-left">
                                                             <div class="d-flex align-items-center h-100">
@@ -616,7 +681,12 @@
                                                     <div class="col-12 row mt-3">
                                                         <h6 class="col-12">Beheren teams</h6>
                                                         <div class="col-12 col-lg-6">
-                                                            <img src="images/projecten/project_php/teams.png" alt="Beheren teams" width="1200" height="482">
+                                                            <a href="images/projecten/project_php/teams.png"
+                                                               data-fancybox="ProjectPHP"
+                                                               data-width="1200" data-height="482"
+                                                               data-caption="De coördinator moet ook een academiejaar kunnen afsluiten en de vorige academiejaren kunnen bekijken in het archief. Mocht er geen academiejaar actief zijn dan verschijnt er een knop om een academiejaar te starten.">
+                                                                <img src="images/projecten/project_php/teams.png" alt="Beheren teams" width="1200" height="482">
+                                                            </a>
                                                         </div>
                                                         <div class="col-12 mt-3 col-lg-6 mt-lg-5 text-lg-left">
                                                             <div class="d-flex align-items-center h-100">
@@ -710,8 +780,9 @@
 </footer>
 
 <!-- JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
 <script src="js/nav-transparant-to-solid.min.js"></script>
 
 </body>
